@@ -1,0 +1,25 @@
+  
+  /* universal selector */
+  /* this universal selector are used when we need to style whole body or whole page of html and it is doneted by * star 
+   */
+  *{
+    text-align: center;
+    background-color: rgb(149, 217, 223);
+  }
+/* div element selector */
+div{
+    background-color: rgb(128, 222, 84);
+}
+/* when we give style to class ,we can use class selector and in class selector we start with . dot like .center */
+.center{
+    background-color: rgb(91, 116, 10);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+/* when we want to give style to a perticuler element we use id selector and when we give style to id selector it start with # like #uniqueheading */
+#uniqueheading{
+    background-color: rgb(114, 166, 224);
+    text-align: center;
+    border: 3px solid red;
+    font-style: italic;
+}

@@ -1,0 +1,20 @@
+body{
+    /* background-color: aquamarine; */
+    background-image: url(./bg.jpg);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px 300px;
+    background-attachment: scroll;
+}
+/* h1{
+    background-color: violet;
+     
+    
+}
+p{
+    background-color: chocolate;
+}
+div{
+    background-color: aliceblue
+    ;} */
