@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>My first Web Page </h2>
+    <p>My First paragraph</p>
+
+    <P id="Demo"></p>
+    <p class="democlass"></p>
+    <!-- data display via Document Write Function  -->
+    <script>
+
+        document.querySelector("#Demo").innerHTML = 5 + 6
+        document.querySelector(".democlass").innerHTML = 20 - 30
+    </script>
+      <!-- data display via window object alert Function -->
+    <script>
+        window.alert("please conform your information")
+    </script>
+    <!-- Data display in  the console  this is  mostly used for code debugging -->
+    <script>
+        console.log("this is my first console log" ,document)
+    </script>
